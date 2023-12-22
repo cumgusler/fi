@@ -148,7 +148,7 @@ function score() {
     else{
         d=d-1
     }
-    
+    localStorage.setItem('myVar', d);
     window.location.href = 'thks.html';
 
 }
